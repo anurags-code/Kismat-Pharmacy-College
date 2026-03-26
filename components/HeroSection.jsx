@@ -9,7 +9,7 @@ export default function HeroSection() {
       
       {/* BACKGROUND IMAGE */}
       <Image
-        src="/asset/heroImg1.jpeg"
+        src="/assets/heroImg1.jpeg"
         alt="Kismat Pharmacy College"
         fill
         className="object-cover"

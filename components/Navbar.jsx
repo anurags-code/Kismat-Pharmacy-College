@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/admissions", label: "Admissions" },
+  // { href: "/admissions", label: "Admissions" },
   { href: "/courses", label: "Courses" },
   { href: "/committees", label: "Committees" },
   { href: "/faculties", label: "Faculties" },
@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <div className="w-10 h-10 relative">
               <Image
-                src="/asset/logo.png"
+                src="/assets/logo.png"
                 alt="Kismat Pharmacy College Logo"
                 fill
                 className="object-contain"

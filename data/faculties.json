@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. Himesh Kumar Nayak",
+        "designation": "Principal",
+        "qualification": "M.PHARM (Pharmacology)",
+        "image": "/assets/faculties/himeshNayak.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mr. Parmanand",
+        "designation": "Assistant professor",
+        "qualification": "M.PHARM (Pharmaceutics)",
+        "image": "/assets/faculties/parmanand.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mr. Guptesh Kumar",
+        "designation": "Assistant professor",
+        "qualification": "M.PHARM (Pharmacetical Quality Assurance )",
+        "image": "/assets/faculties/gupteshKumar.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Birendra Kumar",
+        "designation": "Assistant professor",
+        "qualification": "M.PHARM (Pharmacology)",
+        "image": "/assets/faculties/birendraKumar.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Mr. Chirag Luniya",
+        "designation": "Assistant professor",
+        "qualification": "B. Pharm",
+        "image": "/assets/faculties/chiragLuniya.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mr. Gaurav Kumar Aditya",
+        "designation": "Lecturer",
+        "qualification": "B. Pharm",
+        "image": "/assets/faculties/gauravAditya.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mr. Naveen Agrawal ",
+        "designation": "Lecturer",
+        "qualification": "B. Pharm",
+        "image": "/assets/faculties/naveenAgrawal.png"
+    },
+    {
+        "id": 8,
+        "name": "Ms. Esha Tripti Ekka",
+        "designation": "Lecturer",
+        "qualification": "B. Pharma",
+        "image": "/assets/faculties/eshaTriptiEkka.jpg"
+    }
+]
