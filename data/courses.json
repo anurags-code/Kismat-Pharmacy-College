@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2,
+    "name": "Diploma in Pharmacy (D.Pharm)",
+    "duration": "2 Years",
+    "intake": 60,
+    "eligibility": "10+2 with PCB/PCM (Min. 45%)",
+    "description": "A 2-year diploma program providing foundational knowledge in pharmaceutical sciences and preparing students for pharmacy practice.",
+    "fee": "₹55,000/year",
+    "category": "Diploma"
+  }
+]

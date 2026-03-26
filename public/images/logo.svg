@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="58" fill="#166534" stroke="#22c55e" stroke-width="3"/>
+  <text x="60" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">KPC</text>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#22c55e" letter-spacing="1">PHARMACY</text>
+  <text x="60" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#22c55e" letter-spacing="1">COLLEGE</text>
+  <path d="M 30 95 Q 60 105 90 95" stroke="#22c55e" stroke-width="1.5" fill="none"/>
+</svg>
