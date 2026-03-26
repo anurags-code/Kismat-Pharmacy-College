@@ -119,7 +119,7 @@ export default function Footer() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span>123 Pharmacy Road, Medical District, City – 110001</span>
+                <span>Kanchan Nagar, Ramanujganj, dist- Balrampur - 497220</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -132,10 +132,10 @@ export default function Footer() {
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.22 2 2 0 012.22 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.41 7.56a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 13.92z" />
                 </svg>
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+91 83193 88919"
                   className="hover:text-white transition-colors"
                 >
-                  +91 12345 67890
+                  +91 83193 88919
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -153,7 +153,7 @@ export default function Footer() {
                   href="mailto:info@kismatpharmacy.edu.in"
                   className="hover:text-white transition-colors"
                 >
-                  info@kismatpharmacy.edu.in
+                  kismatpharmacycollege@gmail.com
                 </a>
               </div>
             </address>

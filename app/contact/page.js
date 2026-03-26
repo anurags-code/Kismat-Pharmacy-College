@@ -18,7 +18,7 @@ const contactInfo = [
       </svg>
     ),
     label: "Address",
-    value: "123 Pharmacy Road, Medical District, City – 110001",
+    value: "Kanchan Nagar, Ramanujganj, dist- Balrampur - 497220",
     link: null,
   },
   {
@@ -34,8 +34,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Phone",
-    value: "+91 12345 67890",
-    link: "tel:+911234567890",
+    value: "+91 83193 88919",
+    link: "tel:+91 83193 88919",
   },
   {
     icon: (
@@ -51,26 +51,26 @@ const contactInfo = [
       </svg>
     ),
     label: "Email",
-    value: "info@kismatpharmacy.edu.in",
-    link: "mailto:info@kismatpharmacy.edu.in",
+    value: " kismatpharmacycollege@gmail.com",
+    link: "mailto:kismatpharmacycollege@gmail.com",
   },
-  {
-    icon: (
-      <svg
-        className="w-5 h-5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        viewBox="0 0 24 24"
-      >
-        <circle cx="12" cy="12" r="10" />
-        <polyline points="12 6 12 12 16 14" />
-      </svg>
-    ),
-    label: "Office Hours",
-    value: "Monday – Saturday: 9:00 AM – 5:00 PM",
-    link: null,
-  },
+  // {
+  //   icon: (
+  //     <svg
+  //       className="w-5 h-5"
+  //       fill="none"
+  //       stroke="currentColor"
+  //       strokeWidth="2"
+  //       viewBox="0 0 24 24"
+  //     >
+  //       <circle cx="12" cy="12" r="10" />
+  //       <polyline points="12 6 12 12 16 14" />
+  //     </svg>
+  //   ),
+  //   label: "Office Hours",
+  //   value: "Monday – Saturday: 9:00 AM – 5:00 PM",
+  //   link: null,
+  // },
 ];
 
 export default function ContactPage() {
@@ -157,7 +157,7 @@ export default function ContactPage() {
               </div>
 
               {/* Departments */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h3 className="text-lg font-bold text-[#14532d] mb-4">
                   Department Contacts
                 </h3>
@@ -190,7 +190,7 @@ export default function ContactPage() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Contact Form */}

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Anti-Ragging Committee",
+        "members": [
+            "Mr.Himesh Kumar Nayak",
+            " Mr.Parmanand Sahu ",
+            " Mr. Atul Dubey "
+        ],
+        "purpose": "Ensures a ragging-free campus by monitoring, receiving complaints, and taking strict action against any form of ragging.",
+        "pdf": "/committees/Anti-ragging-committee-squad.pdf"
+    },
+    {
+        "name": "Internal Complaints Committee",
+        "members": [
+            "Himesh Kumar Nayak ",
+            "Miss. Sunila",
+            "Miss. Esha Tripti "
+        ],
+        "purpose": "Ensures a safe and respectful environment by addressing complaints related to workplace issues and resolving them through fair and confidential procedures.",
+        "pdf": "/committees/Internal-complaint-committee.pdf"
+    },
+    {
+        "name": "Grievance Redressal Committee",
+        "members": [
+            "Mr.Himesh Kumar Nayak ",
+            "Miss. Sunila Painkra ",
+            "Mr. Parmanand Sahu "
+        ],
+        "purpose": "Handles grievances of students, faculty, and staff, ensuring timely resolution and maintaining a positive campus environment.",
+        "pdf": "/committees/Grievance-redressal-cell.pdf"
+    },
+    {
+        "name": "Anti Sexual Harassment Committee",
+        "members": [
+            "Mr.Himesh Kumar Nayak ",
+            "Miss. Tripti Ekka ",
+            "Mr. Parmanand Sahu "
+        ],
+        "purpose": "Prevents and addresses cases of sexual harassment by promoting awareness, ensuring a secure environment, and taking strict action against offenders.",
+        "pdf": "/committees/Anti-sexual-harassment-committee.pdf"
+    },
+    {
+        "name": "Gender Senitization Cell",
+        "members": [
+            "Miss. Sunila Painkra",
+            "Mr.Chirag Luniya",
+            "Mr. Parmanand Sahu "
+        ],
+        "purpose": "Promotes gender equality and awareness by educating students and staff, encouraging respectful behavior, and creating an inclusive campus environment.",
+        "pdf": "/committees/Gender-sensitization-cell.pdf"
+    }
+]

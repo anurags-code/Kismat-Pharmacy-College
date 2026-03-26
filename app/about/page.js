@@ -96,7 +96,8 @@ export default function AboutPage() {
                 { value: "15+", label: "Expert Faculty" },
                 { value: "1", label: "Programs Offered" },
                 { value: "5+", label: "Research Labs" },
-                { value: "90%", label: "Placement Rate" },
+                { value: "110+", label: "Students" },
+                // { value: "90%", label: "Placement Rate" },
               ].map((stat) => (
                 <div
                   key={stat.label}
