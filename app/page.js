@@ -198,7 +198,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {/* Notices */}
-            <div>
+            {/* <div>
               <h2 className="text-2xl font-bold text-[#14532d] mb-6 flex items-center gap-2">
                 <span className="w-1.5 h-6 bg-[#166534] rounded inline-block" />
                 Notice Board
@@ -242,10 +242,10 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Events */}
-            <div>
+            {/* <div>
               <h2 className="text-2xl font-bold text-[#14532d] mb-6 flex items-center gap-2">
                 <span className="w-1.5 h-6 bg-[#22c55e] rounded inline-block" />
                 Upcoming Events
@@ -298,13 +298,13 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* CTA Banner */}
-      <section className="bg-gradient-to-r from-[#166534] to-[#14532d] py-14">
+      <section className="bg-gradient-to-r from-[#19703a] to-[#186838] py-14">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
             Ready to Start Your Pharmacy Career?
