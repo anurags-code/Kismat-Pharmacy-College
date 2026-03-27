@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,8 +9,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#166534] font-bold text-lg">
-                K
+              <div className="w-10 h-10 relative">
+                <Image
+                  src="/assets/logo.png"
+                  alt="Kismat Pharmacy College Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
               <span className="font-bold text-lg leading-tight">
                 Kismat Pharmacy College
@@ -97,7 +104,6 @@ export default function Footer() {
               Programs
             </h3>
             <ul className="space-y-2 text-green-200 text-sm">
-              
               <li>D.Pharm (Diploma in Pharmacy)</li>
             </ul>
           </div>
@@ -119,7 +125,9 @@ export default function Footer() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span>Kanchan Nagar, Ramanujganj, dist- Balrampur - 497220</span>
+                <span>
+                  Kanchan Nagar, Ramanujganj, dist- Balrampur - 497220
+                </span>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -165,8 +173,13 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Kismat Pharmacy College. All
             rights reserved.
           </p>
-          <p>Approved by PCI | Affiliated to Chhattisgarh Swami Vivekanand Technical University</p>
+          
+          <p>
+            Approved by PCI | Affiliated to Chhattisgarh Swami Vivekanand
+            Technical University
+          </p>
         </div>
+      
       </div>
     </footer>
   );
