@@ -50,7 +50,7 @@ export default function CoursesPage() {
                     {[
                       { label: 'Duration', value: course.duration },
                       { label: 'Intake', value: `${course.intake} Seats` },
-                      { label: 'Annual Fee', value: course.fee },
+                      // { label: 'Annual Fee', value: course.fee },
                       { label: 'Eligibility', value: course.eligibility },
                     ].map((info) => (
                       <div key={info.label} className="bg-[#f0fdf4] rounded-lg p-3">
