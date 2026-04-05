@@ -179,7 +179,6 @@ export default function Footer() {
             Technical University
           </p>
         </div>
-      
       </div>
     </footer>
   );

@@ -87,14 +87,31 @@ export default function ContactPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    // Simulate API delay
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
-    setLoading(false);
-    setForm({ name: "", email: "", subject: "", message: "" });
-  };
+  e.preventDefault();
+  setLoading(true);
+
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+
+    if (res.ok) {
+      setSubmitted(true);
+      setForm({ name: "", email: "", subject: "", message: "" });
+    } else {
+      alert("Something went wrong");
+    }
+  } catch (error) {
+    console.error(error);
+    alert("Error sending message");
+  }
+
+  setLoading(false);
+};
 
   return (
     <>
